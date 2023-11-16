@@ -1,0 +1,60 @@
+.Favourite-comp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.favourite-container{
+    padding: 10px 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    justify-content: center;
+}
+
+.favourite-div{
+
+    position: relative;
+}
+.favourite-div img{
+    width: 350px;
+}
+
+.favourite-img{
+    border-radius: 20px;
+}
+
+.onHover-details h3{
+    color: white;
+    text-shadow: rgb(0, 0, 0) 1px 2px 5px;
+}
+
+.onHover-details{
+    z-index: 100;
+    display: none;
+    position: absolute;   
+    top: 10px;
+    left: 8px; 
+}
+
+.favourite-div:hover .onHover-details {
+    display: block; /* Show the details when hovering over .favourite-div */
+  }
+
+
+.remove-btn{
+    position: absolute;
+    top: -5px;
+    left: 290px;
+    color: whitesmoke;
+    border: none;
+    padding: 5px 10px;
+    background-color: transparent;
+}
+
+.remove-btn-icon{
+    font-size: 30px;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px 0px;
+    border-radius: 120%;
+    color: red;
+}

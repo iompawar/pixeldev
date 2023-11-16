@@ -1,0 +1,18 @@
+.Footer-comp{
+    display: flex;
+    justify-content: center;
+ 
+    padding: 10px 20px;
+}
+
+.heart-icon-footer{
+    color: rgb(231, 90, 113);
+    font-size: 2rem;
+    position: relative;
+    top: 4px;
+    margin-left: 3px;
+}
+
+.footer-txt{
+    font-size: 2.4rem;
+}

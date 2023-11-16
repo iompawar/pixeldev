@@ -1,0 +1,45 @@
+.Header-comp{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    padding: 8px 20px;
+}
+
+.logo-txt{
+    font-size: 3rem;
+    text-decoration: none;
+    color: black;
+}
+
+ .navlinks{
+    margin-right: 30px;
+    text-decoration: none;
+    font-size: 2.5rem;
+    color: black;
+}
+
+.active{
+    color: rgb(255, 116, 139);
+    
+}
+
+.navlinks:active{
+    color: rgb(38, 36, 36);
+    
+}
+
+
+.user-icon{
+    position: relative;
+    bottom: 4px;
+    font-size: 20px;
+    color: rgb(79, 78, 78);
+}
+
+.heart-icon-header{
+    position: relative;
+    bottom: 4px;
+    font-size: 22px;
+    margin-right: 20px;
+    color: rgb(255, 116, 139);
+}

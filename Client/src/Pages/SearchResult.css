@@ -1,0 +1,28 @@
+.SearchResult-comp{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.query-txt{
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: rgb(66, 154, 255);
+}
+
+.result-image-div{
+    display: grid;
+    padding: 20px 40px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    
+}
+.result-image{
+    width: 500px;   
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: inline;
+}

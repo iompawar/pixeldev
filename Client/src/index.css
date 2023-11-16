@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Kaushan+Script&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    /* font-family:'Dancing Script'; */
+    font-family: 'Kaushan Script', cursive;
+    font-size: 10px;
+
+}
+
+.highlighted-txt{
+    color: #32465B;
+}
